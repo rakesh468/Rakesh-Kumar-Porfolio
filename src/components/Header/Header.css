@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  padding: 12px;
+  position: relative;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+.mobile-menu {
+  display: none;
+}
+.web-menu {
+  display: flex;
+}
+.logo {
+  display: flex;
+  font-size: 20px;
+  color: black;
+  font-weight: 800;
+}
+
+@media (max-width: 720px) {
+  .mobile-menu {
+    display: flex;
+  }
+  .web-menu {
+    display: none;
+  }
+  .log {
+    font-size: 24px;
+  }
+}

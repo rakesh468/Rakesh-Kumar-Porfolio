@@ -2,13 +2,13 @@ import React from 'react';
 import { SocialContact } from '../Common/Social-contact/SocialContact';
 import "./About.css";
 
-
+//About page//
 export function About() {
   return (
     <div className="about">
       <div className="about-top">
       <div className="about-info">
-       Hello There🙋‍♂️, I am <br/><span className="name">Rakesh kumar</span><br/>
+       Hello There, I am <br/><span className="name">Rakesh kumar</span><br/>
        
        <span style={{color:"red"}}> <b>FULL STACK DEVELOPER</b></span>
       

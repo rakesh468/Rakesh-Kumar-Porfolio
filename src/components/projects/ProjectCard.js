@@ -17,7 +17,7 @@ function ProjectCard({ project }) {
                 color="inherit"
                 startIcon={<GitHubIcon />}
               >
-                <a className="project-link" href={project.forntend}>
+                <a className="project-link" href={project.forntend} target="_blank" rel="noreferrer">
                   Fornt-End Code
                 </a>
               </Button>
@@ -30,7 +30,7 @@ function ProjectCard({ project }) {
                 color="inherit"
                 startIcon={<GitHubIcon />}
               >
-                <a className="project-link" href={project.backend}>
+                <a className="project-link" href={project.backend}target="_blank" rel="noreferrer">
                   Back-End Code
                 </a>
               </Button>
@@ -39,7 +39,7 @@ function ProjectCard({ project }) {
           {project.netlify && (
             <div className="link-button">
               <Button variant="contained" color="inherit">
-                <a className="project-link" href={project.netlify}>
+                <a className="project-link" href={project.netlify}target="_blank" rel="noreferrer">
                   Netlify
                 </a>
               </Button>

@@ -7,7 +7,7 @@ export const ProjectData=[
         forntend:"https://github.com/rakesh468/Airbnb-Forntend",
         backend:"https://github.com/rakesh468/airbnb-backend",
         netlify:"https://blissful-ramanujan-c7caee.netlify.app",
-        image:"https://techcrunch.com/wp-content/uploads/2014/09/airbnb-a8707ed9_original.jpg"
+        image:"https://images.pexels.com/photos/2659629/pexels-photo-2659629.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
     },
     {
         id:2,
@@ -17,7 +17,7 @@ export const ProjectData=[
         forntend:"https://github.com/rakesh468/Movie-App",
         backend:"https://github.com/rakesh468/Movie-App-BackEnd",
         netlify:"https://thirsty-yonath-3fb8e8.netlify.app",
-        image:"https://static-ssl.businessinsider.com/image/5e721a4ac485404f1161d6a6-964/popcorntime-1.jp2"
+        image:"https://beebom.com/wp-content/uploads/2019/07/Plex.jpg"
     },{
         id:3,
         title:"Blog App",

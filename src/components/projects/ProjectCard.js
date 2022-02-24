@@ -2,22 +2,31 @@ import React from "react";
 import "./ProjectCard.css";
 import Button from "@mui/material/Button";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+
 
 function ProjectCard({ project }) {
   return (
-    <div className="project-card">
-      <div className="project-info">
+    <Card className="project-card">
+      <CardContent className="project-info">
         <label className="project-title">{project.title}</label>
         <p>{project.description}</p>
         <div className="project-links">
           {project.forntend && (
             <div className="link-button">
               <Button
+                size="small"
                 variant="contained"
                 color="inherit"
                 startIcon={<GitHubIcon />}
               >
-                <a className="project-link" href={project.forntend} target="_blank" rel="noreferrer">
+                <a
+                  className="project-link"
+                  href={project.forntend}
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Fornt-End Code
                 </a>
               </Button>
@@ -26,11 +35,17 @@ function ProjectCard({ project }) {
           {project.backend && (
             <div className="link-button">
               <Button
+                size="small"
                 variant="contained"
                 color="inherit"
                 startIcon={<GitHubIcon />}
               >
-                <a className="project-link" href={project.backend}target="_blank" rel="noreferrer">
+                <a
+                  className="project-link"
+                  href={project.backend}
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Back-End Code
                 </a>
               </Button>
@@ -38,8 +53,13 @@ function ProjectCard({ project }) {
           )}
           {project.netlify && (
             <div className="link-button">
-              <Button variant="contained" color="inherit">
-                <a className="project-link" href={project.netlify}target="_blank" rel="noreferrer">
+              <Button size="small" variant="contained" color="inherit">
+                <a
+                  className="project-link"
+                  href={project.netlify}
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Netlify
                 </a>
               </Button>
@@ -48,17 +68,13 @@ function ProjectCard({ project }) {
         </div>
         <br />
         <div className="project-tags">
-          <span>
-            <b>Tags:</b>
-          </span>
-          <br />
           {project.tags.map((tag) => {
             return <label className="tag">{tag}</label>;
           })}
         </div>
-      </div>
+      </CardContent>
       <img src={project.image} className="project-photo" alt={project.title} />
-    </div>
+    </Card>
   );
 }
 

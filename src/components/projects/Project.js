@@ -4,6 +4,7 @@ import { ProjectData } from "../data/Projects";
 import ProjectCard from "./ProjectCard";
 import Seperator from "../Seperator/Seperator";
 
+
 export function Project() {
   const data = ProjectData;
   return (

@@ -72,6 +72,7 @@
   .project-tags {
     /* width: 100%; */
     flex-direction: column;
+    width: 92px;
   }
   .project-links{
     display: flex;

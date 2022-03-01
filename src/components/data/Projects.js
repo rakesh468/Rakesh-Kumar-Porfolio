@@ -7,7 +7,7 @@ export const ProjectData=[
         forntend:"https://github.com/rakesh468/Airbnb-Forntend",
         backend:"https://github.com/rakesh468/airbnb-backend",
         netlify:"https://fervent-northcutt-81a5ec.netlify.app",
-        image:"https://images.pexels.com/photos/2659629/pexels-photo-2659629.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        image:"https://static01.nyt.com/images/2016/07/24/travel/24Getaway-Hotels-vs-Airbnb/24Getaway-Hotels-vs-Airbnb-jumbo.jpg"
     },
     {
         id:2,
@@ -17,7 +17,7 @@ export const ProjectData=[
         forntend:"https://github.com/rakesh468/Movie-App",
         backend:"https://github.com/rakesh468/Movie-App-BackEnd",
         netlify:"https://clever-visvesvaraya-075583.netlify.app",
-        image:"https://beebom.com/wp-content/uploads/2019/07/Plex.jpg"
+        image:"https://www.maketecheasier.com/assets/uploads/2021/04/watch-movies-online-with-friends-parsec.jpg"
     },{
         id:3,
         title:"BLOG APP",
@@ -26,7 +26,7 @@ export const ProjectData=[
         forntend:"https://github.com/rakesh468/Blog-Forntend",
         backend:"https://github.com/rakesh468/Blog-Backend",
         netlify:"https://stoic-bose-24d094.netlify.app",
-        image:"https://patthomson.files.wordpress.com/2017/08/img_1638.png?w=640"
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjL4WYFe53NRYP8SKwlbD4t2SdYLEtQAc0gQ&usqp=CAU"
        
 
     },
@@ -35,10 +35,10 @@ export const ProjectData=[
         title:"USERS CRUD APP",
         description:"Simple user app is made using Reactjs and Nodejs. CRUD operations implemented for the list of users, where users can be deleted, updated, created and read.",
         tags:["ReactJs","NodeJs","MongoDB","ExpressJs"],
-        forntend:"https://github.com/rakesh468/E-Commerce-App-Fontend",
-        backend:"https://github.com/rakesh468/E-Commerce-App-Backend",
-        netlify:"https://eager-wescoff-b53888.netlify.app",
-        image:"https://media.istockphoto.com/photos/shopping-online-concept-shopping-service-on-the-online-web-with-by-picture-id1133980246?k=20&m=1133980246&s=612x612&w=0&h=bwut2YUV7gtnjrv354523xU_9S-TtKQOqGTdiGMsPfs="
+        forntend:"https://github.com/rakesh468/userlist",
+        backend:"https://github.com/rakesh468/to-do-backend",
+        netlify:"https://pedantic-wilson-a752d5.netlify.app",
+        image:"https://teleskola.mt/wp-content/uploads/2020/05/Users-of-Accounting-information-9f6c1cc47f882f2336bfba1d2e58edd1.png"
     }
     
 

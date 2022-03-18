@@ -33,12 +33,12 @@ export const ProjectData=[
     },
     {
         id:4,
-        title:"Airbnb Clone App",
+        title:"Airbnb App",
         description:"Airbnb Clone App is made using reactjs and nodejs.CRUD operation implemented for the app.To Create Update,Read and Delete",
         tags:["ReactJs","NodeJs","MongoDB","ExpressJs"],
-        forntend:"https://github.com/rakesh468/Airbnb-Forntend",
-        backend:"https://github.com/rakesh468/airbnb-backend",
-        netlify:"https://fervent-northcutt-81a5ec.netlify.app",
+        forntend:"https://github.com/rakesh468/Airbnb-App",
+        backend:"https://github.com/rakesh468/Airbnb-App",
+        netlify:"https://airbnb-site-clone-app.herokuapp.com",
         image:"https://static01.nyt.com/images/2016/07/24/travel/24Getaway-Hotels-vs-Airbnb/24Getaway-Hotels-vs-Airbnb-jumbo.jpg"
     }
     

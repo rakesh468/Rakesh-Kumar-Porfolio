@@ -60,7 +60,7 @@ function ProjectCard({ project }) {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Netlify
+                  Heroku
                 </a>
               </Button>
             </div>

@@ -25,7 +25,7 @@ export const ProjectData = [
   },
   {
     id: 3,
-    title: "MOVIES CRUD APP",
+    title: "MOVIES APP",
     description:
       "Simple movie app is made using nodejs and reactjs. CRUD operations implemented for the list of movies, where movies can be deleted, updated, created and read.",
     tags: ["ReactJs", "NodeJs", "MongoDB", "ExpressJs"],

@@ -6,7 +6,7 @@ import Button from "@mui/material/Button";
 import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
 
 
-//contact Page//
+//contact Page function
 export function Contact() {
   return (
     <div className="contact">

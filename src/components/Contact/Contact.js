@@ -25,7 +25,7 @@ export function Contact() {
           >
             <a
               download
-              href="https://drive.google.com/file/d/1uSp9cQM5NpAz6I9CbveVqDT2nMXQRaP0"target="_blank" rel="noreferrer"
+              href="https://drive.google.com/file/d/1-OzWJxTgjYpJkmzIBgGUGq9QK7yRq8Yf/view?usp=sharing"target="_blank" rel="noreferrer"
             >
               Download Resume
             </a>

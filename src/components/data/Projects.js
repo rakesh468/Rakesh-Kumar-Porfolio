@@ -37,15 +37,15 @@ export const ProjectData = [
   },
   {
     id: 4,
-    title: "BLOG APP",
+    title: "Dominos APP",
     description:
-      "Blog application App is made using reactjs and nodejs.CRUD operation implemented for the app,To Create,Delete,Update and read",
+      "Dominos food order app helps the customer order there foods through the app by addiing there foods to the cart  and payment made through card transaction",
     tags: ["ReactJs", "NodeJs", "MongoDB", "ExpressJs"],
-    forntend: "https://github.com/rakesh468/Blog-Forntend",
-    backend: "https://github.com/rakesh468/Blog-Backend",
-    netlify: "https://stoic-bose-24d094.netlify.app",
+    forntend: "https://github.com/rakesh468/dominos-food-order-app",
+    backend: "https://github.com/rakesh468/dominos-food-order-app",
+    netlify: "https://dominos-food-order-application.herokuapp.com",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjL4WYFe53NRYP8SKwlbD4t2SdYLEtQAc0gQ&usqp=CAU",
+      "https://files.muzli.space/fcc3398ec5ac30c29f8194f7436ebb4a.jpeg",
   },
 ];
 

@@ -6,7 +6,7 @@ import Button from "@mui/material/Button";
 import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
 
 
-//contact Page function
+//contact Page function//
 export function Contact() {
   return (
     <div className="contact">
@@ -35,3 +35,4 @@ export function Contact() {
     </div>
   );
 }
+
